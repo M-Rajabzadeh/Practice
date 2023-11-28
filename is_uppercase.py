@@ -10,7 +10,11 @@ Examples (input -> output)
 "HELLO I AM DONALD" -> True
 "ACSKLDFJSgSKLDFJSKLDFJ" -> False
 "ACSKLDFJSGSKLDFJSKLDFJ" -> True
-In this Kata, a string is said to be in ALL CAPS whenever it does not contain anylowercase letter
- so any string containing no letters at all is trivially considered to be in ALL CAPS.
+In this Kata, a string is said to be in ALL CAPS whenever it does not contain
+anylowercase letter so any string containing no letters at all is trivially 
+considered to be in ALL CAPS.
 '''
 
+
+def is_uppercase(inp):
+    return inp.upper()==inp
